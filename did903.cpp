@@ -13,7 +13,7 @@ public:
         dp[0][0] = 1;
         for(int i=1; i<=len; i++){
             for(int j=0; j<=i; j++){
-                if(S[i-1] == 'I'){
+                if(S[i-1] == 'D'){
                     for(int k=j; k<i; k++) {
                         dp[i][j] += dp[i-1][k];
                         dp[i][j] %= 1000000007;
