@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.8.2)
 project(code)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -9,3 +9,7 @@ add_executable(carpet carpet1003.cpp)
 add_executable(pick square_pick.cpp)
 add_executable(balloon blust_balloon.cpp)
 add_executable(did did903.cpp)
+add_executable(lnr longest_none_repeat.cpp)
+add_executable(std_rd student_record.cpp)
+
+add_definitions(-Werror)
