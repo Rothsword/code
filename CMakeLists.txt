@@ -11,5 +11,6 @@ add_executable(balloon blust_balloon.cpp)
 add_executable(did did903.cpp)
 add_executable(lnr longest_none_repeat.cpp)
 add_executable(std_rd student_record.cpp)
+add_executable(remove remove_box.cpp)
 
 add_definitions(-Werror)
